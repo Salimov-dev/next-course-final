@@ -1,0 +1,51 @@
+{
+  "name": "Tatarian kitchen",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "prisma generate"
+  },
+  "dependencies": {
+    "@auth/core": "^0.40.0",
+    "@auth/prisma-adapter": "^2.10.0",
+    "@heroui/form": "^2.1.21",
+    "@heroui/input": "^2.4.22",
+    "@heroui/modal": "^2.2.19",
+    "@heroui/navbar": "^2.2.20",
+    "@heroui/react": "^2.8.0-beta.10",
+    "@heroui/system": "^2.4.18",
+    "@heroui/theme": "^2.4.17",
+    "@prisma/extension-accelerate": "^2.0.2",
+    "bcryptjs": "^3.0.2",
+    "dompurify": "^3.2.6",
+    "framer-motion": "^12.19.2",
+    "html-react-parser": "^5.2.5",
+    "isomorphic-dompurify": "^2.25.0",
+    "next": "15.3.4",
+    "next-auth": "^5.0.0-beta.29",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "zod": "^3.25.67",
+    "zustand": "^5.0.6"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@prisma/client": "^6.10.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.4",
+    "prisma": "^6.10.1",
+    "tailwindcss": "^4",
+    "tsx": "^4.20.3",
+    "typescript": "^5"
+  }
+}
